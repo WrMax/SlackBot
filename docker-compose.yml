@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  slackbot:
+    image: slackbot
+    build:
+      context: ./SlackBot
+      dockerfile: Dockerfile

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlackBot", "SlackBot\SlackBot.csproj", "{B3AC3C35-BE65-445B-A7AA-2B4BF57239EE}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D707EDAD-1B2C-412E-8D26-C6ECCEE1731A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3AC3C35-BE65-445B-A7AA-2B4BF57239EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3AC3C35-BE65-445B-A7AA-2B4BF57239EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3AC3C35-BE65-445B-A7AA-2B4BF57239EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3AC3C35-BE65-445B-A7AA-2B4BF57239EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D707EDAD-1B2C-412E-8D26-C6ECCEE1731A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D707EDAD-1B2C-412E-8D26-C6ECCEE1731A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D707EDAD-1B2C-412E-8D26-C6ECCEE1731A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D707EDAD-1B2C-412E-8D26-C6ECCEE1731A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C5F0A25-F157-4AAB-BF3B-6B85B33B13C7}
+	EndGlobalSection
+EndGlobal
