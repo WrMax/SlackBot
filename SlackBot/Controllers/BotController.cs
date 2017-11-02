@@ -56,7 +56,7 @@ namespace SlackBot.Controllers
         [HttpPost]
         public async void Post(Message message)
         {
-            const string token = "xoxb-265651457460-eXxX2l41umaxAGSH4zXMERAI";
+            const string token = "yourtoken";
             var uri = new Uri("https://slack.com/api/chat.postMessage?token=" + token + "&channel=" + message.channel_id + "&text=hello");
             var httpClient = new HttpClient();
 
